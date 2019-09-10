@@ -4,7 +4,7 @@ import React from "react";
 import users from "../assets/users";
 import Avatar from "./Avatar";
 
-storiesOf("Avatar", module)
+storiesOf("Atoms/Avatar", module)
   .addDecorator(withKnobs)
   .add("small", () => (
     <div className="row-of-items">

@@ -13,7 +13,7 @@ export default ({
 }) => (
   <Card maxWidth="26rem">
     <div className="profile-card__inner">
-      <div className="profile-card__row margin-bottom-1">
+      <div className="profile-card__row profile-card__row--top margin-bottom-1">
         <Avatar {...user} size="medium"></Avatar>
         <h3 className="profile-card__name">{user.name}</h3>
       </div>

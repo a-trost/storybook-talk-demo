@@ -1,6 +1,5 @@
 import { action } from "@storybook/addon-actions";
-import { number } from "@storybook/addon-knobs";
-import { withKnobs } from "@storybook/addon-knobs/react";
+import { withKnobs, object, number } from "@storybook/addon-knobs/react";
 import { storiesOf } from "@storybook/react";
 import { linkTo } from "@storybook/addon-links";
 import React from "react";
@@ -21,42 +20,44 @@ const options = {
   step: 1
 };
 
-storiesOf("Profile Card", module)
+storiesOf("Molecules/Profile Card", module)
   .addDecorator(withKnobs)
   .addDecorator(story => <div style={{ padding: "2rem" }}>{story()}</div>)
   .add("Friend", () => (
-    <>
-      <ProfileCard
-        user={users[number("user", 0, options)]}
-        {...actions}
-        friendStatus="USER_IS_FRIEND"
-      />
-    </>
+    <ProfileCard
+      user={users[number("user", 0, options)]}
+      {...actions}
+      friendStatus="USER_IS_FRIEND"
+    />
   ))
   .add("Stranger", () => (
-    <>
-      <ProfileCard
-        user={users[number("user", 0, options)]}
-        {...actions}
-        friendStatus="USER_NOT_FRIEND"
-      />
-    </>
+    <ProfileCard
+      user={users[number("user", 0, options)]}
+      {...actions}
+      friendStatus="USER_NOT_FRIEND"
+    />
   ))
   .add("No Picture", () => (
-    <>
-      <ProfileCard
-        user={{ ...users[number("user", 0, options)], picture: "" }}
-        {...actions}
-        friendStatus="USER_NOT_FRIEND"
-      />
-    </>
+    <ProfileCard
+      user={{ ...users[number("user", 0, options)], picture: "" }}
+      {...actions}
+      friendStatus="USER_NOT_FRIEND"
+    />
   ))
-  .add("Stranger", () => (
-    <>
-      <ProfileCard
-        user={users[number("user", 0, options)]}
-        {...actions}
-        friendStatus="USER_NOT_FRIEND"
-      />
-    </>
+  // .add("Long Name", () => (
+  //   <ProfileCard
+  //     user={{
+  //       ...users[number("user", 0, options)],
+  //       name: "Gustavo Ebenezer Hamilton Wordsworth III"
+  //     }}
+  //     {...actions}
+  //     friendStatus="USER_NOT_FRIEND"
+  //   />
+  // ))
+  .add("Editable", () => (
+    <ProfileCard
+      user={object("task", { ...users[0] })}
+      {...actions}
+      friendStatus="USER_NOT_FRIEND"
+    />
   ));

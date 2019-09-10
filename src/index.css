@@ -404,12 +404,26 @@ input:-webkit-autofill {
 /* Avatars */
 
 .avatar {
+
 }
 
 .avatar__image {
   border-radius: 50%;
-  height: 100%;
-  width: 100%;
+}
+
+.avatar__image--small {
+  width: 2rem;
+  height: 2rem;
+}
+
+.avatar__image--medium {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar__image--large {
+  width: 8rem;
+  height: 8rem;
 }
 
 .avatar--small {
@@ -435,16 +449,12 @@ input:-webkit-autofill {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-
+  text-align:center;
   background: rgb(206, 206, 206);
   height:100%;
   width:100%;
-}
-
-.avatar__letter {
-  color: #444;
   font-weight: 700;
-
+  color: #444;
 }
 
 /* Buttons */
@@ -548,6 +558,10 @@ input:-webkit-autofill {
   align-items: center;
 }
 
+.profile-card__row--top{
+  /* flex-flow: row nowrap; */
+}
+
 .profile-card__row--middle{
   display:flex;
   flex-flow: column nowrap;
@@ -566,6 +580,7 @@ input:-webkit-autofill {
 
 .profile-card__name{
   color: #444;
+
 }
 
 
@@ -605,3 +620,4 @@ input:-webkit-autofill {
 .margin-bottom-2 {
   margin-bottom:2rem;
 }
+

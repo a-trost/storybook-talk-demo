@@ -22,7 +22,7 @@ const options = {
   step: 1
 };
 
-storiesOf("Profile Card Grid", module)
+storiesOf("Organisms/Profile Card Grid", module)
   .addDecorator(withKnobs)
   .addDecorator(story => <div style={{ padding: "2rem" }}>{story()}</div>)
   .add("Not Friends", () => (

@@ -21,7 +21,7 @@ const options = {
   step: 1
 };
 
-storiesOf("Friend Screens", module)
+storiesOf("Pages/Friend Screens", module)
   .addDecorator(withKnobs)
   .addDecorator(story => <div style={{ padding: "2rem" }}>{story()}</div>)
   .add("Not Friends", () => (

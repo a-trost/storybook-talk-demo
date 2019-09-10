@@ -15,7 +15,7 @@ const buttonSizes = {
   large: "large"
 };
 
-storiesOf("Button", module)
+storiesOf("Atoms/Button", module)
   .addDecorator(story => <div style={{ padding: "2rem" }}>{story()}</div>)
 
   .addDecorator(withKnobs)

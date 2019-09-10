@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 
 import Card from "./Card";
 
-storiesOf("Card", module)
+storiesOf("Atoms/Card", module)
   .addDecorator(story => <div style={{ padding: "2rem" }}>{story()}</div>)
   .add("default", () => <Card>Inner Content</Card>)
   .add("lots of text", () => (
