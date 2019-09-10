@@ -1,13 +1,607 @@
+/* Reset.less
+ * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
+ * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,800");
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes glow {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.force-wrap {
+  word-wrap: break-word;
+  word-break: break-all;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;
+}
+.type-light {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+.type-bold {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+.type-italic {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+button,
+input,
+textarea,
+select {
+  outline: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: 400;
+  color: #333;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: 400;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ccc;
+  text-transform: uppercase;
+}
+h6 {
+  color: #aaa;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+sub,
+sup {
+  font-size: 0.8em;
+}
+sub {
+  bottom: -0.2em;
+}
+sup {
+  top: -0.2em;
+}
+b {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: 400;
+  padding: 0.75rem 0;
+  line-height: 1.5rem !important;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #333;
+  outline: none;
+}
+input[type="text"] ::placeholder,
+input[type="email"] ::placeholder,
+input[type="password"] ::placeholder,
+textarea ::placeholder {
+  color: #778b91;
+}
+input[type="text"][disabled],
+input[type="email"][disabled],
+input[type="password"][disabled],
+textarea[disabled] {
+  opacity: 0.5;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+.checkbox {
+  display: inline-block;
+  height: 3rem;
+  position: relative;
+  vertical-align: middle;
+  width: 44px;
+}
+.checkbox input[type="checkbox"] {
+  font-size: 1em;
+  visibility: hidden;
+}
+.checkbox input[type="checkbox"] + span:before {
+  position: absolute;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  width: 0.85em;
+  height: 0.85em;
+  transform: translate3d(-50%, -50%, 0);
+  background: transparent;
+  box-shadow: #2cc5d2 0 0 0 1px inset;
+  content: "";
+  display: block;
+}
+.checkbox input[type="checkbox"]:checked + span:before {
+  font-size: 16px;
+  line-height: 24px;
+  box-shadow: none;
+  color: #2cc5d2;
+  margin-top: -1px;
+  font-family: "percolate";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e65e";
+}
+.input-symbol {
+  display: inline-block;
+  position: relative;
+}
+.input-symbol.error [class^="icon-"],
+.input-symbol.error [class*=" icon-"] {
+  color: #ff4400;
+}
+.input-symbol [class^="icon-"],
+.input-symbol [class*=" icon-"] {
+  left: 1em;
+}
+.input-symbol input {
+  padding-left: 3em;
+}
+.input-symbol input {
+  width: 100%;
+}
+.input-symbol input:focus + [class^="icon-"],
+.input-symbol input:focus + [class*=" icon-"] {
+  color: #2cc5d2;
+}
+.input-symbol [class^="icon-"],
+.input-symbol [class*=" icon-"] {
+  transition: all 300ms ease-in;
+  transform: translate3d(0, -50%, 0);
+  background: transparent;
+  color: #aaa;
+  font-size: 1em;
+  height: 1em;
+  position: absolute;
+  top: 50%;
+  width: 1em;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* My Styles for Demo */
+
+.row-of-items {
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+.row-of-items * {
+  margin: 0.5rem;
+}
+
+/* Avatars */
+
+.avatar {
+}
+
+.avatar__image {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.avatar--small {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.avatar--medium {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+}
+
+.avatar--large {
+  width: 8rem;
+  height: 8rem;
+  font-size: 4rem;
+}
+
+.avatar__letter-background{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  background: rgb(206, 206, 206);
+  height:100%;
+  width:100%;
+}
+
+.avatar__letter {
+  color: #444;
+  font-weight: 700;
+
+}
+
+/* Buttons */
+
+.button {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button--red {
+  background-color: #BA2525;
+  color: #fff;
+}
+
+.button--blue {
+  background-color: #2680C2;
+  color: #fff;
+}
+
+.button--grey {
+  background-color: #ddd;
+}
+
+.button--green {
+  background-color: #63921A;
+  color: #fff;
+}
+
+.button--outline.button--red {
+  background-color: transparent;
+  color: #BA2525;
+  border-color: #BA2525;
+}
+
+.button--outline.button--blue {
+  background-color: transparent;
+  color: #2680C2;
+  border-color: #2680C2;
+}
+
+.button--outline.button--grey {
+  background-color: transparent;
+  color: #555;
+  border-color: #ccc;
+}
+
+.button--outline.button--green {
+  background-color: transparent;
+  color: #63921A;
+  border-color: #63921A;
+}
+
+.button--small {
+  font-size: .75rem;
+  letter-spacing: .2px;
+  padding: .25rem .5rem;
+
+}
+
+.button--medium {
+  font-size: 1rem;
+  letter-spacing: .2px;
+  padding: .5rem;
+}
+
+.button--large {
+  font-size: 1.25rem;
+  letter-spacing: .2px;
+  padding: .75rem;
+
+}
+
+/* Card */
+
+.card {
+  display:inline-block;
+  background: #fff;
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 1.5rem;
+}
+
+/* Profile Card */
+
+.profile-card__inner{
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.profile-card__row {
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.profile-card__row--middle{
+  display:flex;
+  flex-flow: column nowrap;
+  flex: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.profile-card__row--bottom{
+  justify-content: space-around;
+}
+
+.profile-card__row > *+*{
+  margin-left:1rem;
+}
+
+.profile-card__name{
+  color: #444;
+}
+
+
+.profile-card__description{
+  line-height: 1.4;
+  color: #555;
+  font-size: .8rem;
+}
+
+/* Profile Card Grid */
+
+.profile-card-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  max-width: 65rem;
+
+}
+
+
+/* Friend Screen */
+
+.friend-screen__subtitle{
+  display:block;
+  color:#555;
+  margin-bottom:1rem;
+  margin-left: 1rem;
+}
+
+
+/* Helper */
+
+.margin-bottom-1 {
+  margin-bottom:1rem;
+}
+
+.margin-bottom-2 {
+  margin-bottom:2rem;
 }

@@ -1,0 +1,1507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Avatar large 1`] = `
+<div
+  className="row-of-items"
+>
+  <div
+    className="avatar avatar--large"
+  >
+    <img
+      alt="Tanya Camaratta"
+      className="avatar__image"
+      src="https://randomuser.me//api//portraits//women//19.jpg"
+    />
+  </div>
+  <div
+    className="avatar avatar--large"
+  >
+    <div
+      className="avatar__letter-background"
+    >
+      <span
+        className="avatar__letter"
+      >
+        T
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Avatar medium 1`] = `
+<div
+  className="row-of-items"
+>
+  <div
+    className="avatar avatar--medium"
+  >
+    <img
+      alt="Darren Nunez"
+      className="avatar__image"
+      src="https://randomuser.me//api//portraits//men//38.jpg"
+    />
+  </div>
+  <div
+    className="avatar avatar--medium"
+  >
+    <div
+      className="avatar__letter-background"
+    >
+      <span
+        className="avatar__letter"
+      >
+        D
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Avatar small 1`] = `
+<div
+  className="row-of-items"
+>
+  <div
+    className="avatar avatar--small"
+  >
+    <img
+      alt="Alyana Thomson"
+      className="avatar__image"
+      src="https://randomuser.me//api//portraits//women//44.jpg"
+    />
+  </div>
+  <div
+    className="avatar avatar--small"
+  >
+    <div
+      className="avatar__letter-background"
+    >
+      <span
+        className="avatar__letter"
+      >
+        A
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button outline 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="row-of-items"
+  >
+    <button
+      className="button button--grey button--medium button--outline"
+      onClick={[Function]}
+    >
+      Button Text
+    </button>
+    <button
+      className="button button--red button--medium button--outline"
+      onClick={[Function]}
+    >
+      Button Text
+    </button>
+    <button
+      className="button button--blue button--medium button--outline"
+      onClick={[Function]}
+    >
+      Button Text
+    </button>
+    <button
+      className="button button--green button--medium button--outline"
+      onClick={[Function]}
+    >
+      Button Text
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button solid 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="row-of-items"
+  >
+    <button
+      className="button button--grey button--medium button--solid"
+      onClick={[Function]}
+    >
+      Button Text
+    </button>
+    <button
+      className="button button--red button--medium button--solid"
+      onClick={[Function]}
+    >
+      Button Text
+    </button>
+    <button
+      className="button button--blue button--medium button--solid"
+      onClick={[Function]}
+    >
+      Button Text
+    </button>
+    <button
+      className="button button--green button--medium button--solid"
+      onClick={[Function]}
+    >
+      Button Text
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "maxWidth": "unset",
+      }
+    }
+  >
+    Inner Content
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card lots of text 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "maxWidth": "unset",
+      }
+    }
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque earum dignissimos aliquid animi illo fugiat labore eaque incidunt asperiores cumque veritatis laudantium, laboriosam, nesciunt soluta dolorum repellat dolorem ipsum? Similique, aliquam. Quis, eos porro. Sunt eaque reiciendis laborum cupiditate rem repellat expedita labore quasi temporibus ipsum, nam omnis, ratione rerum pariatur tempora. Modi delectus reiciendis omnis soluta tenetur consequatur? Provident cum necessitatibus, placeat inventore earum soluta perspiciatis excepturi consectetur laboriosam qui harum error odit. Molestiae, voluptate ipsum. Consequuntur assumenda amet recusandae obcaecati cumque non earum. Saepe suscipit vel distinctio! Sit enim veniam nam reprehenderit. Doloribus consequuntur mollitia dolore quas, tempora deleniti veritatis, quae aliquid vel pariatur praesentium, modi minus dolorum commodi magni consectetur quidem similique beatae at unde nisi! Ullam sit accusamus, at debitis ut quisquam aut earum quaerat soluta beatae distinctio iure expedita vitae cumque sint voluptas in asperiores, harum dignissimos quia cum maiores id eius illo. Doloremque! Enim sapiente nam, praesentium molestiae perferendis ea quos! Officiis eligendi, placeat deleniti ea eum blanditiis corrupti reprehenderit ratione quidem dolorem ex nobis velit quaerat nisi rerum quam quas necessitatibus. Enim. Laborum, ipsam consequatur. Commodi nemo doloremque repellat earum laboriosam? Consequuntur asperiores amet similique cupiditate consectetur iure alias ut sit, labore dolorem tenetur ducimus, est eius! Corrupti, sapiente quaerat. Unde, fugiat! In aut nemo blanditiis sunt facilis dolor explicabo, incidunt vero iure quis modi esse quos laborum eum rem quisquam. Officiis autem recusandae quo architecto, repudiandae quasi dolorum! Deserunt, ipsum eveniet?
+  </div>
+</div>
+`;
+
+exports[`Storyshots Friend Screens Friends 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="friend-screen"
+  >
+    <h1>
+      Your Friends
+    </h1>
+    <span
+      className="friend-screen__subtitle"
+    >
+      These are your internet friends.
+    </span>
+    <div
+      className="profile-card-grid"
+    >
+      <div
+        className="card"
+        style={
+          Object {
+            "maxWidth": "26rem",
+          }
+        }
+      >
+        <div
+          className="profile-card__inner"
+        >
+          <div
+            className="profile-card__row margin-bottom-1"
+          >
+            <div
+              className="avatar avatar--medium"
+            >
+              <img
+                alt="Alyana Thomson"
+                className="avatar__image"
+                src="https://randomuser.me//api//portraits//women//44.jpg"
+              />
+            </div>
+            <h3
+              className="profile-card__name"
+            >
+              Alyana Thomson
+            </h3>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--middle margin-bottom-1"
+          >
+            <p
+              className="profile-card__description"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+            </p>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--bottom"
+          >
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              View Profile
+            </button>
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              Message
+            </button>
+            <button
+              className="button button--red button--small button--outline"
+              onClick={[Function]}
+            >
+              Remove Friend
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "maxWidth": "26rem",
+          }
+        }
+      >
+        <div
+          className="profile-card__inner"
+        >
+          <div
+            className="profile-card__row margin-bottom-1"
+          >
+            <div
+              className="avatar avatar--medium"
+            >
+              <img
+                alt="Darren Nunez"
+                className="avatar__image"
+                src="https://randomuser.me//api//portraits//men//38.jpg"
+              />
+            </div>
+            <h3
+              className="profile-card__name"
+            >
+              Darren Nunez
+            </h3>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--middle margin-bottom-1"
+          >
+            <p
+              className="profile-card__description"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+            </p>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--bottom"
+          >
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              View Profile
+            </button>
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              Message
+            </button>
+            <button
+              className="button button--red button--small button--outline"
+              onClick={[Function]}
+            >
+              Remove Friend
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "maxWidth": "26rem",
+          }
+        }
+      >
+        <div
+          className="profile-card__inner"
+        >
+          <div
+            className="profile-card__row margin-bottom-1"
+          >
+            <div
+              className="avatar avatar--medium"
+            >
+              <img
+                alt="Tanya Camaratta"
+                className="avatar__image"
+                src="https://randomuser.me//api//portraits//women//19.jpg"
+              />
+            </div>
+            <h3
+              className="profile-card__name"
+            >
+              Tanya Camaratta
+            </h3>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--middle margin-bottom-1"
+          >
+            <p
+              className="profile-card__description"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+            </p>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--bottom"
+          >
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              View Profile
+            </button>
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              Message
+            </button>
+            <button
+              className="button button--red button--small button--outline"
+              onClick={[Function]}
+            >
+              Remove Friend
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "maxWidth": "26rem",
+          }
+        }
+      >
+        <div
+          className="profile-card__inner"
+        >
+          <div
+            className="profile-card__row margin-bottom-1"
+          >
+            <div
+              className="avatar avatar--medium"
+            >
+              <img
+                alt="Case Wolf"
+                className="avatar__image"
+                src="https://randomuser.me//api//portraits//men//18.jpg"
+              />
+            </div>
+            <h3
+              className="profile-card__name"
+            >
+              Case Wolf
+            </h3>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--middle margin-bottom-1"
+          >
+            <p
+              className="profile-card__description"
+            >
+              Lorem ipsum.
+            </p>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--bottom"
+          >
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              View Profile
+            </button>
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              Message
+            </button>
+            <button
+              className="button button--red button--small button--outline"
+              onClick={[Function]}
+            >
+              Remove Friend
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Friend Screens Not Friends 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="friend-screen"
+  >
+    <h1>
+      Find Friends
+    </h1>
+    <span
+      className="friend-screen__subtitle"
+    >
+      Make some new internet friends.
+    </span>
+    <div
+      className="profile-card-grid"
+    >
+      <div
+        className="card"
+        style={
+          Object {
+            "maxWidth": "26rem",
+          }
+        }
+      >
+        <div
+          className="profile-card__inner"
+        >
+          <div
+            className="profile-card__row margin-bottom-1"
+          >
+            <div
+              className="avatar avatar--medium"
+            >
+              <img
+                alt="Alyana Thomson"
+                className="avatar__image"
+                src="https://randomuser.me//api//portraits//women//44.jpg"
+              />
+            </div>
+            <h3
+              className="profile-card__name"
+            >
+              Alyana Thomson
+            </h3>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--middle margin-bottom-1"
+          >
+            <p
+              className="profile-card__description"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+            </p>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--bottom"
+          >
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              View Profile
+            </button>
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              Message
+            </button>
+            <button
+              className="button button--green button--small button--solid"
+              onClick={[Function]}
+            >
+              Add Friend
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "maxWidth": "26rem",
+          }
+        }
+      >
+        <div
+          className="profile-card__inner"
+        >
+          <div
+            className="profile-card__row margin-bottom-1"
+          >
+            <div
+              className="avatar avatar--medium"
+            >
+              <img
+                alt="Darren Nunez"
+                className="avatar__image"
+                src="https://randomuser.me//api//portraits//men//38.jpg"
+              />
+            </div>
+            <h3
+              className="profile-card__name"
+            >
+              Darren Nunez
+            </h3>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--middle margin-bottom-1"
+          >
+            <p
+              className="profile-card__description"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+            </p>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--bottom"
+          >
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              View Profile
+            </button>
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              Message
+            </button>
+            <button
+              className="button button--green button--small button--solid"
+              onClick={[Function]}
+            >
+              Add Friend
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "maxWidth": "26rem",
+          }
+        }
+      >
+        <div
+          className="profile-card__inner"
+        >
+          <div
+            className="profile-card__row margin-bottom-1"
+          >
+            <div
+              className="avatar avatar--medium"
+            >
+              <img
+                alt="Tanya Camaratta"
+                className="avatar__image"
+                src="https://randomuser.me//api//portraits//women//19.jpg"
+              />
+            </div>
+            <h3
+              className="profile-card__name"
+            >
+              Tanya Camaratta
+            </h3>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--middle margin-bottom-1"
+          >
+            <p
+              className="profile-card__description"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+            </p>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--bottom"
+          >
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              View Profile
+            </button>
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              Message
+            </button>
+            <button
+              className="button button--green button--small button--solid"
+              onClick={[Function]}
+            >
+              Add Friend
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "maxWidth": "26rem",
+          }
+        }
+      >
+        <div
+          className="profile-card__inner"
+        >
+          <div
+            className="profile-card__row margin-bottom-1"
+          >
+            <div
+              className="avatar avatar--medium"
+            >
+              <img
+                alt="Case Wolf"
+                className="avatar__image"
+                src="https://randomuser.me//api//portraits//men//18.jpg"
+              />
+            </div>
+            <h3
+              className="profile-card__name"
+            >
+              Case Wolf
+            </h3>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--middle margin-bottom-1"
+          >
+            <p
+              className="profile-card__description"
+            >
+              Lorem ipsum.
+            </p>
+          </div>
+          <div
+            className="profile-card__row profile-card__row--bottom"
+          >
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              View Profile
+            </button>
+            <button
+              className="button button--grey button--small button--outline"
+              onClick={[Function]}
+            >
+              Message
+            </button>
+            <button
+              className="button button--green button--small button--solid"
+              onClick={[Function]}
+            >
+              Add Friend
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Profile Card Friend 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "maxWidth": "26rem",
+      }
+    }
+  >
+    <div
+      className="profile-card__inner"
+    >
+      <div
+        className="profile-card__row margin-bottom-1"
+      >
+        <div
+          className="avatar avatar--medium"
+        >
+          <img
+            alt="Alyana Thomson"
+            className="avatar__image"
+            src="https://randomuser.me//api//portraits//women//44.jpg"
+          />
+        </div>
+        <h3
+          className="profile-card__name"
+        >
+          Alyana Thomson
+        </h3>
+      </div>
+      <div
+        className="profile-card__row profile-card__row--middle margin-bottom-1"
+      >
+        <p
+          className="profile-card__description"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+        </p>
+      </div>
+      <div
+        className="profile-card__row profile-card__row--bottom"
+      >
+        <button
+          className="button button--grey button--small button--outline"
+          onClick={[Function]}
+        >
+          View Profile
+        </button>
+        <button
+          className="button button--grey button--small button--outline"
+          onClick={[Function]}
+        >
+          Message
+        </button>
+        <button
+          className="button button--red button--small button--outline"
+          onClick={[Function]}
+        >
+          Remove Friend
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Profile Card Grid Friends 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="profile-card-grid"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "maxWidth": "26rem",
+        }
+      }
+    >
+      <div
+        className="profile-card__inner"
+      >
+        <div
+          className="profile-card__row margin-bottom-1"
+        >
+          <div
+            className="avatar avatar--medium"
+          >
+            <img
+              alt="Alyana Thomson"
+              className="avatar__image"
+              src="https://randomuser.me//api//portraits//women//44.jpg"
+            />
+          </div>
+          <h3
+            className="profile-card__name"
+          >
+            Alyana Thomson
+          </h3>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--middle margin-bottom-1"
+        >
+          <p
+            className="profile-card__description"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+          </p>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--bottom"
+        >
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            View Profile
+          </button>
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            Message
+          </button>
+          <button
+            className="button button--red button--small button--outline"
+            onClick={[Function]}
+          >
+            Remove Friend
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      style={
+        Object {
+          "maxWidth": "26rem",
+        }
+      }
+    >
+      <div
+        className="profile-card__inner"
+      >
+        <div
+          className="profile-card__row margin-bottom-1"
+        >
+          <div
+            className="avatar avatar--medium"
+          >
+            <img
+              alt="Darren Nunez"
+              className="avatar__image"
+              src="https://randomuser.me//api//portraits//men//38.jpg"
+            />
+          </div>
+          <h3
+            className="profile-card__name"
+          >
+            Darren Nunez
+          </h3>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--middle margin-bottom-1"
+        >
+          <p
+            className="profile-card__description"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+          </p>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--bottom"
+        >
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            View Profile
+          </button>
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            Message
+          </button>
+          <button
+            className="button button--red button--small button--outline"
+            onClick={[Function]}
+          >
+            Remove Friend
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      style={
+        Object {
+          "maxWidth": "26rem",
+        }
+      }
+    >
+      <div
+        className="profile-card__inner"
+      >
+        <div
+          className="profile-card__row margin-bottom-1"
+        >
+          <div
+            className="avatar avatar--medium"
+          >
+            <img
+              alt="Tanya Camaratta"
+              className="avatar__image"
+              src="https://randomuser.me//api//portraits//women//19.jpg"
+            />
+          </div>
+          <h3
+            className="profile-card__name"
+          >
+            Tanya Camaratta
+          </h3>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--middle margin-bottom-1"
+        >
+          <p
+            className="profile-card__description"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+          </p>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--bottom"
+        >
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            View Profile
+          </button>
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            Message
+          </button>
+          <button
+            className="button button--red button--small button--outline"
+            onClick={[Function]}
+          >
+            Remove Friend
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      style={
+        Object {
+          "maxWidth": "26rem",
+        }
+      }
+    >
+      <div
+        className="profile-card__inner"
+      >
+        <div
+          className="profile-card__row margin-bottom-1"
+        >
+          <div
+            className="avatar avatar--medium"
+          >
+            <img
+              alt="Case Wolf"
+              className="avatar__image"
+              src="https://randomuser.me//api//portraits//men//18.jpg"
+            />
+          </div>
+          <h3
+            className="profile-card__name"
+          >
+            Case Wolf
+          </h3>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--middle margin-bottom-1"
+        >
+          <p
+            className="profile-card__description"
+          >
+            Lorem ipsum.
+          </p>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--bottom"
+        >
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            View Profile
+          </button>
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            Message
+          </button>
+          <button
+            className="button button--red button--small button--outline"
+            onClick={[Function]}
+          >
+            Remove Friend
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Profile Card Grid Not Friends 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="profile-card-grid"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "maxWidth": "26rem",
+        }
+      }
+    >
+      <div
+        className="profile-card__inner"
+      >
+        <div
+          className="profile-card__row margin-bottom-1"
+        >
+          <div
+            className="avatar avatar--medium"
+          >
+            <img
+              alt="Alyana Thomson"
+              className="avatar__image"
+              src="https://randomuser.me//api//portraits//women//44.jpg"
+            />
+          </div>
+          <h3
+            className="profile-card__name"
+          >
+            Alyana Thomson
+          </h3>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--middle margin-bottom-1"
+        >
+          <p
+            className="profile-card__description"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+          </p>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--bottom"
+        >
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            View Profile
+          </button>
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            Message
+          </button>
+          <button
+            className="button button--green button--small button--solid"
+            onClick={[Function]}
+          >
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      style={
+        Object {
+          "maxWidth": "26rem",
+        }
+      }
+    >
+      <div
+        className="profile-card__inner"
+      >
+        <div
+          className="profile-card__row margin-bottom-1"
+        >
+          <div
+            className="avatar avatar--medium"
+          >
+            <img
+              alt="Darren Nunez"
+              className="avatar__image"
+              src="https://randomuser.me//api//portraits//men//38.jpg"
+            />
+          </div>
+          <h3
+            className="profile-card__name"
+          >
+            Darren Nunez
+          </h3>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--middle margin-bottom-1"
+        >
+          <p
+            className="profile-card__description"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+          </p>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--bottom"
+        >
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            View Profile
+          </button>
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            Message
+          </button>
+          <button
+            className="button button--green button--small button--solid"
+            onClick={[Function]}
+          >
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      style={
+        Object {
+          "maxWidth": "26rem",
+        }
+      }
+    >
+      <div
+        className="profile-card__inner"
+      >
+        <div
+          className="profile-card__row margin-bottom-1"
+        >
+          <div
+            className="avatar avatar--medium"
+          >
+            <img
+              alt="Tanya Camaratta"
+              className="avatar__image"
+              src="https://randomuser.me//api//portraits//women//19.jpg"
+            />
+          </div>
+          <h3
+            className="profile-card__name"
+          >
+            Tanya Camaratta
+          </h3>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--middle margin-bottom-1"
+        >
+          <p
+            className="profile-card__description"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+          </p>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--bottom"
+        >
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            View Profile
+          </button>
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            Message
+          </button>
+          <button
+            className="button button--green button--small button--solid"
+            onClick={[Function]}
+          >
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card"
+      style={
+        Object {
+          "maxWidth": "26rem",
+        }
+      }
+    >
+      <div
+        className="profile-card__inner"
+      >
+        <div
+          className="profile-card__row margin-bottom-1"
+        >
+          <div
+            className="avatar avatar--medium"
+          >
+            <img
+              alt="Case Wolf"
+              className="avatar__image"
+              src="https://randomuser.me//api//portraits//men//18.jpg"
+            />
+          </div>
+          <h3
+            className="profile-card__name"
+          >
+            Case Wolf
+          </h3>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--middle margin-bottom-1"
+        >
+          <p
+            className="profile-card__description"
+          >
+            Lorem ipsum.
+          </p>
+        </div>
+        <div
+          className="profile-card__row profile-card__row--bottom"
+        >
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            View Profile
+          </button>
+          <button
+            className="button button--grey button--small button--outline"
+            onClick={[Function]}
+          >
+            Message
+          </button>
+          <button
+            className="button button--green button--small button--solid"
+            onClick={[Function]}
+          >
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Profile Card No Picture 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "maxWidth": "26rem",
+      }
+    }
+  >
+    <div
+      className="profile-card__inner"
+    >
+      <div
+        className="profile-card__row margin-bottom-1"
+      >
+        <div
+          className="avatar avatar--medium"
+        >
+          <div
+            className="avatar__letter-background"
+          >
+            <span
+              className="avatar__letter"
+            >
+              A
+            </span>
+          </div>
+        </div>
+        <h3
+          className="profile-card__name"
+        >
+          Alyana Thomson
+        </h3>
+      </div>
+      <div
+        className="profile-card__row profile-card__row--middle margin-bottom-1"
+      >
+        <p
+          className="profile-card__description"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+        </p>
+      </div>
+      <div
+        className="profile-card__row profile-card__row--bottom"
+      >
+        <button
+          className="button button--grey button--small button--outline"
+          onClick={[Function]}
+        >
+          View Profile
+        </button>
+        <button
+          className="button button--grey button--small button--outline"
+          onClick={[Function]}
+        >
+          Message
+        </button>
+        <button
+          className="button button--green button--small button--solid"
+          onClick={[Function]}
+        >
+          Add Friend
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Profile Card Stranger 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "maxWidth": "26rem",
+      }
+    }
+  >
+    <div
+      className="profile-card__inner"
+    >
+      <div
+        className="profile-card__row margin-bottom-1"
+      >
+        <div
+          className="avatar avatar--medium"
+        >
+          <img
+            alt="Alyana Thomson"
+            className="avatar__image"
+            src="https://randomuser.me//api//portraits//women//44.jpg"
+          />
+        </div>
+        <h3
+          className="profile-card__name"
+        >
+          Alyana Thomson
+        </h3>
+      </div>
+      <div
+        className="profile-card__row profile-card__row--middle margin-bottom-1"
+      >
+        <p
+          className="profile-card__description"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit quasi fuga sequi quidem a...
+        </p>
+      </div>
+      <div
+        className="profile-card__row profile-card__row--bottom"
+      >
+        <button
+          className="button button--grey button--small button--outline"
+          onClick={[Function]}
+        >
+          View Profile
+        </button>
+        <button
+          className="button button--grey button--small button--outline"
+          onClick={[Function]}
+        >
+          Message
+        </button>
+        <button
+          className="button button--green button--small button--solid"
+          onClick={[Function]}
+        >
+          Add Friend
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
